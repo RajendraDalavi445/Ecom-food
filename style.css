@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-weight: 550;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+/* ========================== main ======================================= */
+.main {
+    background: url(./images/lunchcopy.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    background-color: rgb(249, 56, 114);
+    transition: all 0.5s;
+  
+}
+
+/* =========================================================== */
+.new {
+    position: relative;
+}
+
+.circle {
+    height: 55px;
+    width: 55px;
+    /* box-shadow: 9px -9px 10px 8px yellow; */
+    background-color: rgb(235, 235, 46);
+
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    margin-left: 90px;
+    padding-top: 30px;
+
+}
+
+/* ======================= product ===================================== */
+.product h1 {
+    font-weight: 700;
+}
+.card:hover{
+   
+    -webkit-box-shadow: -2px 2px 23px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 23px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 2px 23px -3px rgba(0, 0, 0, 0.75);
+    transition: all 0.7s;
+}
+/* ===================== About Section ================================= */
+    .about h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .btnabout{
+        width: 40%;
+        height: 50px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: rgb(248, 26, 92);
+        font-weight: 700;
+        border-radius: 60px;
+    }
+    .btnabout:hover{
+        background-color: rgb(249, 56, 114);
+    }
+    .food:hover{
+        transform: scale(0.8,0.8);
+        transition: all 0.4s;
+    }
+    /* ==================================================== */
+    .apple{
+        background:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(./images/applebg.png)no-repeat;
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+    }
+    .apple h1{
+        font-family: 'Pacifico', cursive;
+        color: rgb(15,13,53);
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .apple p{
+        color: white;
+        font-size: 1rem;
+    }
+    /* =================== contact ======================================= */
+
+    .contact .btn7{
+        height: 45px;
+        width: 35%;
+        color: white;
+        background-color: rgb(248, 26, 92);
+        border-radius: 60px;
+        border: none;
+        outline: none;
+        font-weight: 700;
+    }
+    .contact .btn7:hover{
+        background: rgb(247, 36, 99);
+        /* transition: all 0.4; */
+        transform: rotate(20deg);
+    }
+    /* ========================= footer======================================== */
+    .news{
+        background-color: black;
+        color: white;
+    }
+    .btn2{
+        height: 45px;
+        width: 100px;
+        background: white;
+        margin-left: -10px;
+        border: 2px solid white;
+        font-weight: 600;
+    }
+    .news input{
+        height: 45px;
+        width: 55%;
+        border: 2px solid white;
+        outline: none;
+        background: black;
+        color: white;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .news::placeholder{
+        color: white;
+    }
+   .news p{
+    margin: 0;
+   }
+   .news .fa-brands{
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding-right: 5px;
+        padding-left: 5px;
+   }
